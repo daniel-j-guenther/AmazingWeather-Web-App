@@ -1,4 +1,4 @@
-# Weather-Journal App Project
+# Udacity Project3: Weather-Journal App
 
 ## Overview
 
@@ -12,12 +12,13 @@ Create an asynchronous web app that uses Web API and user data to dynamically up
 
 ## Table of Contents
 
-project-c3-udacity-fend/www/app.js
-project-c3-udacity-fend/www/index.html
-project-c3-udacity-fend/www/style.css
-project-c3-udacity-fend/www/style.ttf
-project-c3-udacity-fend/README.md
-project-c3-udacity-fend/server.js
+- project-c3-udacity-fend/www/app.js
+- project-c3-udacity-fend/www/index.html
+- project-c3-udacity-fend/www/style.css
+- project-c3-udacity-fend/www/style.ttf
+- project-c3-udacity-fend/LICENSE
+- project-c3-udacity-fend/README.md
+- project-c3-udacity-fend/server.js
 
 ## Instructions
 
