@@ -2,7 +2,6 @@ body{
     background: #fffff8;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
-
 #app{
     display: flex;
     flex-direction: column;
@@ -14,22 +13,17 @@ body{
     padding-bottom: 72px;
     font-family: 'Exo';
 }
-
 .app-amazing{
+    position: relative;
     width: 100%;
-    margin-bottom: 24px;
     display: flex;
     flex-direction: column;
     vertical-align: top;
     justify-content: stretch;
 }
-
 input{
     display:block;
     height: 48px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
     padding: 12px;
     margin-bottom: 12px;
     color: #4138ec;
@@ -39,13 +33,9 @@ input{
     font-size: 1em;
     font-family: 'Exo';
 }
-
 textarea{
     display:block;
     height: 144px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
     padding: 12px;
     margin-bottom: 12px;
     color: #4138ec;
@@ -55,13 +45,9 @@ textarea{
     font-size: 1em;
     font-family: 'Exo';
 }
-
 button{
     display: block;
     height: 48px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
     background: #4138ec;
     color: #fff;
     border-radius: 6px;
@@ -69,31 +55,29 @@ button{
     font-family: 'Exo';
     
 }
-
 .entry-amazing{
-    display:block;
-    background: #21ffa2;
-    padding: 12px;
-    width: 100%;
-    border-width: 1px;
-    border-radius: 6px;
-    border-color: #e6e6e6;
+  display:block;
+  border-color: #4138ec;
+  border-width: 1px;
+  border-radius: 6px;
 }
 #entryHolder{
+    display:block;
     padding: 12px;
-    margin-bottom: 24px;
+    background: #21ffa2;
+    border-radius: 6px;
 }
 #date{
     display: inline-block;
     width: 49%;
     margin-right: 2%;
-    padding-bottom: 12px;
+    padding-bottom: 4px;
     font-family: 'Poppins';
 }
 #temp{
     display: inline-block;
     width: 49%;
-    padding-bottom: 12px;
+    padding-bottom: 4px;
     font-family: 'Poppins';
 }
 #content{
@@ -137,7 +121,6 @@ button:focus {
   font-weight: 400;
   font-style: normal;
 }
-
 /* Styling: Headers, Font & Text */
 h1 {
   font-size: 38px;
@@ -200,7 +183,6 @@ a {
 a:hover {
   color: #4138ec;
 }
-
 /* Styling: Links & Buttons */
 .blog-link {
   padding-right: 4px;
@@ -240,7 +222,6 @@ a:hover {
 .link {
   text-decoration: none;
 }
-
 /* Styling: Layout */
 .container {
   position: relative;
@@ -287,6 +268,10 @@ a:hover {
   align-items: center;
 }
 .div-master {
+  display: flex;
+  flex-direction: column;
+  vertical-align: top;
+  justify-content: stretch;
   position: relative;
   overflow: hidden;
   width: 100%;
