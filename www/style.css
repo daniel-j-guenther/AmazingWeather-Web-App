@@ -184,15 +184,6 @@ a:hover {
   color: #4138ec;
 }
 /* Styling: Links & Buttons */
-.blog-link {
-  padding-right: 4px;
-  padding-left: 4px;
-  background-color: #21ffa2;
-  color: #fff;
-  font-size: 12px;
-  font-weight: 700;
-  text-decoration: none;
-}
 .footer-homepage-link {
   color: #111;
   text-decoration: underline;
@@ -268,12 +259,6 @@ a:hover {
   align-items: center;
 }
 .div-master {
-  display: flex;
-  flex-direction: column;
-  vertical-align: top;
-  justify-content: stretch;
-  position: relative;
-  overflow: hidden;
   width: 100%;
   margin-top: -32px;
   margin-bottom: -32px;
