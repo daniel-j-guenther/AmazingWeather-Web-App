@@ -1,34 +1,26 @@
 {
-  "name": "project-c3-udacity-fend",
+  "name": "amazing-weather",
   "version": "1.0.0",
+  "author": "DJ Guenther",
+  "license": "GPL-3.0-only",
   "description": "## Overview",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daniel-j-guenther/amazingweather-web-app.git"
+  },
+  "keywords": [
+    "Asynchronous",
+    "JavaScript ES6",
+    "Fetch API",
+    "Chained Promises"
+  ],
+  "scripts": {
+    "start": "node server.js"
+  },
   "main": "server.js",
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.17.1"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "node server.js",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/daniel-j-guenther/project-c3-udacity-fend.git"
-  },
-  "keywords": [
-    "Asynchronous",
-    "JavaScript",
-    "Fetch",
-    "API",
-    "Chaining",
-    "Promises."
-  ],
-  "author": "DJ Guenther",
-  "license": "SEE LICENSE IN ROOT DIRECTORY",
-  "bugs": {
-    "url": "https://github.com/daniel-j-guenther/project-c3-udacity-fend/issues"
-  },
-  "homepage": "https://github.com/daniel-j-guenther/project-c3-udacity-fend#readme"
+  }
 }
